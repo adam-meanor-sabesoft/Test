@@ -19,6 +19,7 @@ public class Test {
 	private static final Logger logger = LoggerFactory.getLogger(CupsTest.class);
 
 	public static void main(final String... pArguments) throws Exception {
+		//IP address of the printer server
 		String host = "192.168.1.30";
 
 		String printerName = null;
